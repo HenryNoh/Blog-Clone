@@ -8,7 +8,6 @@ const StyledLink = styled(Link)`
 
 const ListsBlock = styled.div`
     max-width: 1080px;
-    height: 768px;
     position: relative;
     margin: 0 auto;
     display: flex;
@@ -53,7 +52,7 @@ const List = ({ list, onDelete }) => {
     const [suc, setSuc] = useState(false);
 
     const onSubmit = (e) => {
-        if (window.confirm('삭제하시겠습니까?')) {
+        if (window.confirm('?��?��?��?��겠습?���??')) {
             onDelete(id);
         }
     };

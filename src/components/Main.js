@@ -77,12 +77,12 @@ const MainListsBlock = styled.div`
 
 const MainItem = ({ list }) => {
     const text = list.text.replace(/(<([^>]+)>)/gi, '');
-    const date = list.list_date;
-    // list.list_date.substring(0, 4) +
-    //     '. ' +
-    //     list.list_date.substring(5, 7) +
-    //     '. ' +
-    //     list.list_date.substring(8, 10);
+    const date =
+        list.list_date.substring(0, 4) +
+        '. ' +
+        list.list_date.substring(5, 7) +
+        '. ' +
+        list.list_date.substring(8, 10);
     return (
         <MainItemBlock>
             <StyledLink to={`/List/${list.id}`}>
@@ -101,7 +101,7 @@ const MainList = ({ lists }) => {
         <MainListBlock>
             <MainListsHeader>
                 <h1>
-                    ? „ì²? ê¸? <span>{lists.length}</span>
+                    ì „ì²´ ê¸€ <span>{lists.length}</span>
                 </h1>
             </MainListsHeader>
             {lists.map((list, index) => (
