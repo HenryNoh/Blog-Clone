@@ -44,8 +44,6 @@ Henry Noh
 
 ## Function
 
-### `Categorying`
-
-### `Searching`
-
-### `Login (PASSWORD HASHING)`
++ `Categorying`
++ `Searching`
++ `Login (PASSWORD HASHING)`
