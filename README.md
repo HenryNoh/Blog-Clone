@@ -1,6 +1,6 @@
 # Blog-Clone Project with CRA
 
-Blog-Clone га╥на╖ф╝╢б ╨М╥н╠в Ё©╨Я https://henrynoh.tistory.com/╦╕ Cloneгя га╥на╖ф╝ют╢о╢ы.
+Blog-Clone М■└К║°Л═²М┼╦К┼■ К╦■К║°Й╥╦ К┐└К╧└ https://henrynoh.tistory.com/ К╔╪ CloneМ∙° М■└К║°Л═²М┼╦Л·┘К▀┬К▀╓.
 
 ## Install
 
