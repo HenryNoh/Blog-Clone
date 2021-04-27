@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# Blog-Clone Project with CRA
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Blog-Clone ÇÁ·ÎÁ§Æ®´Â ºí·Î±× ³¿ºñ https://henrynoh.tistory.com/¸¦ CloneÇÑ ÇÁ·ÎÁ§Æ®ÀÔ´Ï´Ù.
 
-## Available Scripts
+## Install
 
-In the project directory, you can run:
+`npm install`
 
-### `yarn start`
+## Usage
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+`yarn dev`
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Author
 
-### `yarn test`
+Henry Noh
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+-   Phone) +82 10 3049 8044
+-   Mail) xodlf8044@gmail.com
+-   Blog) https://henrynoh.tistory.com/
+-   Notion) https://www.notion.so/Henry-Noh-ee0c59e0da8946f6838f87f5bf6480b7
 
-### `yarn build`
+## Devlope Stack
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### `Front end`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+-   React
+-   Redux
+-   Redux-Thunk
+-   Styled Component
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### `Back end`
 
-### `yarn eject`
+-   Node.js
+-   Express.js
+-   Sequelize.js
 
-**Note: this is a one-way operation. Once you `eject`, you canâ€™t go back!**
+### `DataBase`
 
-If you arenâ€™t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+-   Mysql (AWS RDS)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point youâ€™re on your own.
+### `Hosting`
 
-You donâ€™t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldnâ€™t feel obligated to use this feature. However we understand that this tool wouldnâ€™t be useful if you couldnâ€™t customize it when you are ready for it.
+-   AWS EC2 (Not working now)
 
-## Learn More
+## Function
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### `Categorying`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### `Searching`
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### `Login (PASSWORD HASHING)`
